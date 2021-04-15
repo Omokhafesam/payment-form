@@ -3,8 +3,8 @@ body {
 }
 
 .wrapper {
-    background-color: #307D99;
-    color: white;
+    background-color: white;
+    color: rgb(77, 73, 73);
     text-align: center;
     padding: 4em;
 }
@@ -24,13 +24,13 @@ h4 {
 }
 
 .form-container {
-    background-color: white;
+    background-color: rgb(77, 73, 73);
     margin: 2em -1em 0;
     padding: 2em;
 }
 
 .input-group {
-    color: #307D98;
+    color: white;
     font-weight: bold;
     display: block;
     margin-bottom: 1em;
@@ -70,11 +70,10 @@ input-group {
 }
 
 select {
-    color: #307D98;
-    font-weight: bold;
-    margin-bottom: 1.2em;
+    color: #959899;
+    margin-bottom: 1em;
     font-size: 1em;
-    width: 10%;
+    width: 15%;
     padding: 1.2em;
     border-radius: 1em;
     margin-top: 1.2em;
@@ -85,3 +84,9 @@ select {
     margin-top: 1.2em;
 }
 
+button {
+    color: white;
+    border-radius: 1em;
+    width: 15%;
+    background-color: rgb(182, 178, 175);
+}
